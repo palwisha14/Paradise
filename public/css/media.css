@@ -1,0 +1,139 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1440px) {
+  .playbtn {
+    width: 30%;
+  }
+  .main_details > h1 {
+    font-size: 52px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+  .rectangle-div {
+    width: 85%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .frame-wrapper {
+    position: absolute;
+    display: none;
+    top: 100%;
+    background: #000;
+    width: 100%;
+    z-index: 100;
+    left: 0px;
+  }
+  .home-parent {
+    flex-direction: column;
+    width: 100%;
+    background-color: #000;
+    gap: 10px 0px !important;
+    align-items: flex-start;
+    padding: 20px;
+    box-shadow: 0px 4px 8px 1px lightgray;
+  }
+  .bars {
+    display: block;
+  }
+  .playbtn {
+    width: 15%;
+  }
+  .revers_row {
+    flex-direction: column-reverse;
+  }
+  .rectangle-div {
+    right: 140px;
+    width: 543px !important;
+  }
+  .frame-child5 {
+    left: 140px;
+  }
+  .slid_img {
+    height: 600px;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .playbtn {
+    width: 30%;
+}
+.rectangle-group {
+  height: 600px;
+}
+.rectangle-div {
+  right: 100px;
+  width: 60% !important;
+}
+.frame-child5 {
+  left: 110px;
+  width: 170px;
+    height: 240px;
+}
+.pady-60 {
+  padding: 20px 0px;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .main_details > h1 {
+    font-size: 30px;
+}
+.playbtn {
+  width:40%;
+}
+.play_para > p {
+  font-size: 16px;
+}
+.rating_box > h3 {
+  font-size:20px;
+}
+.rating_box > p {
+  font-size: 12px;
+}
+.down_arrow{
+  margin-top: 0px;
+}
+.slid_img {
+  height: 450px;
+}
+.rectangle-group {
+  height: 400px;
+}
+.frame-child5, .arrow_img{
+  display: none;
+}
+.rectangle-div {
+  right: 0px !important;
+  width: 100% !important;
+  border-radius: 0px !important;
+}
+.rever_mob{
+  flex-direction: column-reverse;
+}
+.prem_detail{
+  padding: 20px 0px;
+}
+.tabs_product > .nav-pills .nav-link {
+  height: 44px;
+  width: 74px;
+  margin-right: 5px;
+}
+.furniture-content-child{
+  height: 220px;
+}
+.separator {
+  height: 290px;
+  margin-top: -20px;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 420px) {
+}
+@media only screen and (max-width: 360px) {
+}
